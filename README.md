@@ -70,7 +70,7 @@ I like systems — software, hardware, networks. My homelab runs production-grad
 
 ## 📬 Get in Touch
 
-[![Website](https://img.shields.io/badge/devpipe.online-000000?style=flat-square&logo=firefox&logoColor=white)](https://devpipe.online)
+[![Website](https://img.shields.io/badge/portfolio.devpipe.net-000000?style=flat-square&logo=firefox&logoColor=white)](https://portfolio.devpipe.net/)
 [![LinkedIn](https://img.shields.io/badge/LinkedIn-0077B5?style=flat-square&logo=linkedin&logoColor=white)](https://linkedin.com/in/luisfelipetejadap)
 [![Email](https://img.shields.io/badge/devpipe@proton.me-8B89CC?style=flat-square&logo=protonmail&logoColor=white)](mailto:devpipe@proton.me)
 
