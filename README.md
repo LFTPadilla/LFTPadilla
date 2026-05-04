@@ -56,7 +56,7 @@ I like systems — software, hardware, networks. My homelab runs production-grad
 
 **Kanban/Scrum Manager** — Project management tool built with Angular and Flask.
 
-**Pharmacy Web App** — Team project covering inventory management, sales tracking, and expiry date alerts.
+**[FarmaQuindio](https://github.com/LFTPadilla/farmaquindio)** — Pharmacy management web app built with Flask and MySQL. Features inventory, sales, returns, purchase orders, role-based access (admin/employee), and analytics reports.
 
 ---
 
