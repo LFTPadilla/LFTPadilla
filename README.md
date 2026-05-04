@@ -52,7 +52,7 @@ I like systems — software, hardware, networks. My homelab runs production-grad
 
 **Visual Impairment Navigation Device** — Wearable device combining ultrasonic and laser distance sensors with sonar-style audio feedback to assist navigation. Hardware + embedded systems.
 
-**Python → C++ Compiler** — Full compiler pipeline built from scratch: lexical analysis, parsing, semantic analysis, and code generation.
+**[Custom Language Compiler](https://github.com/LFTPadilla/compilador)** — Full compiler for a custom Java-like language, built from scratch in Python. Covers lexical analysis, recursive descent parsing, semantic analysis with symbol tables, and Python code generation. PyQt5 GUI included.
 
 **Kanban/Scrum Manager** — Project management tool built with Angular and Flask.
 
