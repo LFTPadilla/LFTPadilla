@@ -50,6 +50,8 @@ I like systems — software, hardware, networks. My homelab runs production-grad
 
 ## 🔬 Notable Projects
 
+**[PyScript Home Assistant Suite](https://github.com/LFTPadilla/pyscript-homeassistant)** — 30+ Python automations for Home Assistant: adaptive lighting, smart alarm with sleep cycle optimization, climate control, emergency safety systems, ElevenLabs TTS, ESPHome configs, and Grafana dashboards.
+
 **Visual Impairment Navigation Device** — Wearable device combining ultrasonic and laser distance sensors with sonar-style audio feedback to assist navigation. Hardware + embedded systems.
 
 **[Custom Language Compiler](https://github.com/LFTPadilla/compilador)** — Full compiler for a custom Java-like language, built from scratch in Python. Covers lexical analysis, recursive descent parsing, semantic analysis with symbol tables, and Python code generation. PyQt5 GUI included.
