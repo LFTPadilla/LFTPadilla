@@ -1,10 +1,12 @@
 # Hi, I'm Felipe
 
-Senior Backend / Full-Stack Engineer based in Colombia. I build production backend systems, AWS infrastructure, data workflows, and AI-assisted engineering pipelines.
+Senior Backend / Full-Stack Engineer based in Colombia. I build production backend systems, AWS infrastructure, data workflows, and AI-native engineering systems.
 
-I started coding at 14. These days my strongest work sits between backend ownership and infrastructure: Rails/Elixir systems, TypeScript/AWS data platforms, Java/Spring Boot integrations, PostgreSQL/Elasticsearch, cloud migrations, and DevOps automation.
+I started coding at 14. These days my strongest work sits between backend ownership, infrastructure, and AI-assisted delivery: Rails/Elixir systems, TypeScript/AWS data platforms, Java/Spring Boot integrations, PostgreSQL/Elasticsearch, cloud migrations, DevOps automation, and LLM-powered workflows.
 
 Currently working at [Kommit](https://kommit.co), where I have delivered across international client projects involving real estate SaaS, enterprise platform migrations, confidential US data platform work, Java/Spring Boot ingestion workers, and production AI/LLM integrations.
+
+I like working close to the product: understand the problem, design a pragmatic system, ship it, operate it, and keep improving it.
 
 ---
 
@@ -13,8 +15,8 @@ Currently working at [Kommit](https://kommit.co), where I have delivered across 
 - **Backend systems:** Ruby on Rails, Elixir/Phoenix, Java/Spring Boot, TypeScript/Fastify, REST APIs, workers, integrations, background jobs.
 - **Cloud & DevOps:** AWS infrastructure, Heroku-to-AWS migrations, Docker/Docker Swarm, CI/CD, Pulumi, Terraform, Ansible, Traefik, Nginx.
 - **Data platforms:** SaaS data extraction, JSONL exports, S3 pipelines, validation/QA checks, PostgreSQL, Elasticsearch, Oracle APEX integrations.
-- **AI-assisted delivery:** Claude Code, OpenAI Codex, Cursor, subagents, metaprompting, spec-driven workflows, typed contracts, tests, and review loops.
-- **LLM integration:** Amazon Bedrock, Claude/OpenAI APIs, Ollama, prompt engineering, RAG-style workflows.
+- **AI-native delivery:** Claude Code, OpenAI Codex, Cursor, subagents, metaprompting, spec-driven workflows, typed contracts, tests, and review loops.
+- **LLM integration:** Amazon Bedrock, Claude/OpenAI APIs, Ollama, prompt engineering, RAG-style workflows, and human-in-the-loop validation.
 
 ---
 
@@ -27,6 +29,7 @@ Currently working at [Kommit](https://kommit.co), where I have delivered across 
 - Managed 3 Elasticsearch analytics/search clusters handling hundreds of thousands of data points.
 - Built Java/Spring Boot workers for Google Tasks and Google Calendar ingestion into Oracle APEX-backed warehouse flows using hexagonal architecture.
 - Delivered production tickets in a confidential TypeScript/AWS data platform stack using Fastify, tRPC, Prisma, PostgreSQL, React, WorkOS, Lambda, S3, ECS, SSM, Terraform, Playwright, and Vitest.
+- Built operational data extraction workflows for Slack, Jira, and GitHub using JSONL exports, S3, Airbyte/PyAirbyte, Singer taps, custom connectors, Lambda downloaders, and QA/audit checks.
 
 ---
 
@@ -61,9 +64,17 @@ Currently working at [Kommit](https://kommit.co), where I have delivered across 
 ![PostgreSQL](https://img.shields.io/badge/PostgreSQL-316192?style=flat-square&logo=postgresql&logoColor=white)
 ![Elasticsearch](https://img.shields.io/badge/Elasticsearch-005571?style=flat-square&logo=elasticsearch&logoColor=white)
 
+**AI & automation**
+
+![OpenAI](https://img.shields.io/badge/OpenAI-412991?style=flat-square&logo=openai&logoColor=white)
+![Claude](https://img.shields.io/badge/Claude-D97757?style=flat-square&logo=anthropic&logoColor=white)
+![Amazon Bedrock](https://img.shields.io/badge/Amazon_Bedrock-FF9900?style=flat-square&logo=amazonaws&logoColor=white)
+![Ollama](https://img.shields.io/badge/Ollama-000000?style=flat-square&logo=ollama&logoColor=white)
+![n8n](https://img.shields.io/badge/n8n-EA4B71?style=flat-square&logo=n8n&logoColor=white)
+
 ---
 
-## Public projects
+## Selected public work
 
 **[PyScript Home Assistant Suite](https://github.com/LFTPadilla/pyscript-homeassistant)**  
 30+ Python automations for Home Assistant: adaptive lighting, smart alarm with sleep cycle optimization, climate control, emergency systems, ElevenLabs TTS, ESPHome configs, and Grafana dashboards.
@@ -80,11 +91,14 @@ Wearable assistive device combining ultrasonic and laser distance sensors with s
 **[Blackrack.app](https://blackrack.app)**  
 Part-time technical lab for deployed AI agents, private/self-hosted infrastructure, and workflow automation. I use it to test OpenClaw runtimes, k3s orchestration, Longhorn storage, Tailscale networking, LiteLLM provider routing, Caddy TLS/reverse proxy patterns, and operational runbooks.
 
+**[NixOS dotfiles](https://github.com/LFTPadilla/nixos-dotfiles)**  
+Reproducible workstation and infrastructure configuration. Useful for keeping development environments consistent and documenting systems practice.
+
 ---
 
 ## Homelab / devpipe.net
 
-I run a production-grade personal infrastructure lab and use it to test the same patterns I apply professionally.
+I run a production-grade personal infrastructure lab and use it to test the same patterns I apply professionally: deployment automation, observability, backups, reverse proxies, zero-trust networking, and self-hosted operations.
 
 - Raspberry Pi 5, cloud VPS, Mini PC / Proxmox
 - Docker, Traefik, WireGuard, Tailscale, Pangolin/Gerbil, Let's Encrypt
@@ -92,7 +106,7 @@ I run a production-grade personal infrastructure lab and use it to test the same
 - Monitoring with Uptime Kuma, Beszel, Dozzle, and service dashboards
 - Self-hosted services: Immich, Odoo, AnythingLLM/Ollama, Pi-hole, Nextcloud, Home Assistant, n8n, Kestra, Linkding, Stirling PDF
 
-[Live dashboard](https://dashboard.devpipe.net) | [Personal site](https://www.devpipe.net/)
+[Live dashboard](https://dashboard.devpipe.net) | [Personal site](https://www.devpipe.net/) | [Blackrack.app](https://blackrack.app)
 
 ---
 
