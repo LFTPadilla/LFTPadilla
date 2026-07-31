@@ -28,7 +28,7 @@ The central idea is simple: coding agents need engineering systems around them. 
 
 ## What I do
 
-- **AI-native delivery:** OpenAI Codex, Claude Code, Cursor, subagents, metaprompting, spec-driven workflows, typed contracts, tests, and review loops.
+- **AI-native delivery:** OpenAI Codex, Claude Code, Pi, and Cursor, with each runtime adapted to the context through subagents, metaprompting, spec-driven workflows, typed contracts, tests, and review loops.
 - **Backend systems:** Ruby on Rails, Elixir/Phoenix, Java/Spring Boot, TypeScript/Fastify, REST APIs, workers, integrations, and background jobs.
 - **Cloud and DevOps:** AWS infrastructure, Heroku-to-AWS migrations, Docker/Docker Swarm, CI/CD, Pulumi, Terraform, Ansible, Traefik, and Nginx.
 - **Data platforms:** SaaS data extraction, JSONL exports, S3 pipelines, validation and QA checks, PostgreSQL, Elasticsearch, and Oracle APEX integrations.
@@ -80,6 +80,7 @@ The central idea is simple: coding agents need engineering systems around them. 
 
 ![OpenAI](https://img.shields.io/badge/OpenAI-412991?style=flat-square&logo=openai&logoColor=white)
 ![Claude](https://img.shields.io/badge/Claude-D97757?style=flat-square&logo=anthropic&logoColor=white)
+![PI](https://img.shields.io/badge/PI-000000?style=flat-square&logoColor=white)
 ![Amazon Bedrock](https://img.shields.io/badge/Amazon_Bedrock-FF9900?style=flat-square&logo=amazonaws&logoColor=white)
 ![Ollama](https://img.shields.io/badge/Ollama-000000?style=flat-square&logo=ollama&logoColor=white)
 ![n8n](https://img.shields.io/badge/n8n-EA4B71?style=flat-square&logo=n8n&logoColor=white)
@@ -90,9 +91,22 @@ The central idea is simple: coding agents need engineering systems around them. 
 
 Public multi-runtime system for safe, repeatable AI-assisted software development with Codex, Claude Code, Pi, and OpenCode.
 
-**[PyScript Home Assistant Suite](https://github.com/LFTPadilla/pyscript-homeassistant)**
+### 🏠 [Home Control Center](https://github.com/LFTPadilla/pyscript-ha-public)
 
-30+ Python automations for Home Assistant, including adaptive lighting, a smart alarm, climate control, emergency systems, ElevenLabs TTS, ESPHome configurations, and Grafana dashboards.
+[![Home Assistant](https://img.shields.io/badge/Home_Assistant-control_center-18BCF2?style=for-the-badge&logo=home-assistant&logoColor=white)](https://github.com/LFTPadilla/pyscript-ha-public)
+[![PyScript](https://img.shields.io/badge/PyScript-event_driven-3776AB?style=for-the-badge&logo=python&logoColor=white)](https://github.com/LFTPadilla/pyscript-ha-public)
+[![Public Template](https://img.shields.io/badge/Public_Template-privacy_safe-34D399?style=for-the-badge&logo=github&logoColor=white)](https://github.com/LFTPadilla/pyscript-ha-public)
+
+My apartment runs as an event-driven control system rather than a collection of isolated switches. Motion, presence, time, and device state flow through a central house-mode engine that coordinates lighting, climate, safety, notifications, and wake-up routines.
+
+`sensors + context` → `Day / Night / Sleep / Away` → `lights + climate + alerts`
+
+- **Mode-aware behavior:** automations respond differently when the home is sleeping, empty, hosting friends, or winding down.
+- **Durable smart alarm:** a nine-hour sleep window, explicit enable/disable control, and recovery across Home Assistant or PyScript reloads.
+- **Operational safeguards:** centralized entity catalogs, transition policies, validation, unit tests, secret scanning, and privacy checks.
+- **Shareable by design:** the public repository removes personal schedules, reminders, identities, and hardware addresses while keeping the architecture configurable.
+
+→ **[Explore the public Home Control Center configuration](https://github.com/LFTPadilla/pyscript-ha-public)**
 
 **[Custom Language Compiler](https://github.com/LFTPadilla/compilador)**  
 Compiler for a custom Java-like language built from scratch in Python. Covers lexical analysis, recursive-descent parsing, semantic analysis with symbol tables, Python code generation, and a PyQt5 GUI.
@@ -103,20 +117,26 @@ Pharmacy-management web application built with Flask and MySQL. Includes invento
 **Visual Impairment Navigation Device**  
 Wearable assistive device combining ultrasonic and laser distance sensors with sonar-style audio feedback. Hardware, embedded systems, and accessibility-focused software.
 
+**[Blackrack.app](https://blackrack.app)**
+
+Part-time technical lab for deployed AI agents, private/self-hosted infrastructure, and workflow automation. I use it to test OpenClaw runtimes, k3s orchestration, Longhorn storage, Tailscale networking, LiteLLM provider routing, Caddy TLS/reverse proxy patterns, and operational runbooks.
+
 **[NixOS dotfiles](https://github.com/LFTPadilla/nixos-dotfiles)**  
 Reproducible workstation and infrastructure configuration for consistent development environments.
 
-## Homelab and devpipe.net
+## Live infrastructure
 
-I run a production-grade personal infrastructure lab and use it to test deployment automation, observability, backups, reverse proxies, zero-trust networking, and self-hosted operations.
+[![Devpipe control room](https://img.shields.io/website?url=https%3A%2F%2Fdashboard.devpipe.net&style=flat-square&label=devpipe%20control%20room&up_message=online&down_message=offline&color=34d399)](https://dashboard.devpipe.net)
 
-- Raspberry Pi 5, cloud VPS, Mini PC / Proxmox.
-- Docker, Traefik, WireGuard, Tailscale, Pangolin/Gerbil, and Let's Encrypt.
-- Automated backups to AWS S3 and Google Drive with rclone.
-- Monitoring with Uptime Kuma, Beszel, Dozzle, and service dashboards.
-- Self-hosted services including Immich, Odoo, AnythingLLM/Ollama, Pi-hole, Nextcloud, Home Assistant, n8n, Kestra, Linkding, and Stirling PDF.
+I run Devpipe as a working infrastructure lab rather than a static architecture exercise. It spans cloud and homelab nodes and gives me a place to operate deployment automation, observability, backups, reverse proxies, private networking, and service recovery under real conditions.
 
-[Live dashboard](https://dashboard.devpipe.net) | [Personal site](https://www.devpipe.net/)
+- **Orchestration:** k3s / Kubernetes across multiple nodes.
+- **Public edge:** Caddy with automatic TLS and version-controlled routes.
+- **Storage and recovery:** Longhorn replicas, snapshots, and AWS S3 backups.
+- **Private networking:** Tailscale between cloud and homelab systems.
+- **Observability:** Uptime Kuma for availability and Beszel for host and container metrics.
+
+> [Open the live control room](https://dashboard.devpipe.net) to see the public application surface and service health. The implementation is also presented as a case study on [devpipe.net](https://devpipe.net).
 
 ## Get in touch
 
