@@ -12,7 +12,7 @@ Currently working at [Kommit](https://kommit.co), where I have delivered across 
 
 ## Agentic development systems
 
-I designed and maintain [`agent-dev-kit`](https://github.com/LFTPadilla/agent-dev-kit), a public MIT-licensed, multi-runtime agent development kit for Codex, Claude Code, Pi, and OpenCode.
+I designed and maintain [`agent-dev-kit`](https://github.com/LFTPadilla/agent-dev-kit) (live platform: [`agent-dev-kit.devpipe.net`](https://agent-dev-kit.devpipe.net)), a public MIT-licensed, multi-runtime agent development kit for Codex, Claude Code, Pi, and OpenCode.
 
 The kit separates communication, planning, capabilities, verification, and safety policies. It includes:
 
@@ -87,9 +87,12 @@ The central idea is simple: coding agents need engineering systems around them. 
 
 ## Selected public work
 
-**[`agent-dev-kit`](https://github.com/LFTPadilla/agent-dev-kit)**
+**[`agent-dev-kit`](https://github.com/LFTPadilla/agent-dev-kit)** — **[Live Platform: agent-dev-kit.devpipe.net](https://agent-dev-kit.devpipe.net)**
 
-Public multi-runtime system for safe, repeatable AI-assisted software development with Codex, Claude Code, Pi, and OpenCode.
+[![Live Platform](https://img.shields.io/website?url=https%3A%2F%2Fagent-dev-kit.devpipe.net&style=flat-square&label=agent-dev-kit.devpipe.net&up_message=online&down_message=offline&color=34d399)](https://agent-dev-kit.devpipe.net)
+[![GitHub Repository](https://img.shields.io/badge/GitHub-agent--dev--kit-181717?style=flat-square&logo=github&logoColor=white)](https://github.com/LFTPadilla/agent-dev-kit)
+
+Public multi-runtime system for safe, repeatable AI-assisted software development with Codex, Claude Code, Pi, and OpenCode. Features an interactive web showcase with terminal simulator, 22 curated skills catalog, Socratic Dev Tutor, adversarial PR-review workflow, and live performance benchmarks.
 
 ### 🏠 [Home Control Center](https://github.com/LFTPadilla/pyscript-ha-public)
 
